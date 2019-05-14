@@ -7,3 +7,4 @@ I will test it again.
 Git has a mutable index called stage.
 
 Testing for "branch"
+Creating a branch is quick and simple.
