@@ -8,3 +8,5 @@ Git has a mutable index called stage.
 
 Testing for "branch"
 Creating a new branch is quick and simple.
+
+test---------------->"--no--ff"
