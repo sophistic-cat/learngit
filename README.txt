@@ -10,3 +10,5 @@ Testing for "branch"
 Creating a new branch is quick and simple.
 
 test---------------->"--no--ff"
+
+test---------------->"stash"
