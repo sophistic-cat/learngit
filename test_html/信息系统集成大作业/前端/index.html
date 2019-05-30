@@ -83,18 +83,19 @@ h1.head1
 
 <div>
 	<!--背景图片-->
-	<div id="web_bg" style="background-image: url(bg2.jpg);"></div>
+	<div id="web_bg" style="background-image: url(background\\bg2.jpg);"></div>
 </div>
 
 <div style="text-align:center">
-	<form name="form1" action="test.php" onsubmit="return check_valued()" class="word1" method="post">
-		Id:<input type="text" name="id"><br>
-		Password:<input type="password" name="pwd"><br>
-		验证码:<input type="text" name="random_key">
+	<form name="form1" action=".\bin\last_test.php" onsubmit="return check_valued()" class="word1" method="post">
+		用户:<input type="text" name="id" style="font-family:Impact, Charcoal, sans-serif;"><br>
+		密码:<input type="password" name="pwd" style="font-family:Impact, Charcoal, sans-serif;"><br>
+		验证:<input type="text" name="random_key" style="font-family:Impact, Charcoal, sans-serif;"><br>
+		<p></p>
 		<canvas id="canvas" width="120" height="40"></canvas>
-		<a href="#" id="changeImg">看不清，换一张</a><br> 
+		<a href="#" id="changeImg">换一张</a><br> 
 		<script src="验证码.js"></script>
-		<input type="submit" value="Submit" class="word">	
+		<input type="submit" value="Submit" class="word" style="font-family:'Times New Roman',Times,serif;" style="test-align:right">	
 	</form>
 </div>
 </body>
